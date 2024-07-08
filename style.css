@@ -1,0 +1,66 @@
+body{
+    font-family: roboto;
+    font-optical-sizing: auto;
+    font-style :normal;
+}
+
+*{
+padding:0;
+margin: 10px;
+box-sizing: border-box
+}
+ .footer{
+    background-color:black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+   
+}  
+.socialicons a {
+    text-decoration:none;
+    padding: 10px; 
+    background-color: aliceblue;
+    margin :10px;
+    border-radius: 50%;
+    .socialicons a i{  
+   font-size: 2em;
+   color:black;
+    opacity :0.9;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+display: inline;
+justify-content: center;
+}
+.footernav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1,3em;
+    opacity: calc(0.7);
+    transition: 0.5s;
+}      
+
+.form-field {
+    width: 500px 0 px;
+    height :200px;
+    border :1px; solid:rgb(255 0 0)
+    padding :10px 20px 10px 20px;
+    font-size :10px;
+    font-style:italics
+}
+.form-field label{
+    font-style: var(50px);
+    font-size: 9px;
+    .form-field input{
+        border: 2px; solid:black;
+    }
